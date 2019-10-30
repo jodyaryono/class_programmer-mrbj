@@ -1,5 +1,6 @@
 # class-programmer-mrbj 2019 Angkatan-1
-## Pelatihan dasar CodeIgniter dan  Bootstrap 4
+## Pelatihan dasar CodeIgniter dan  Bootstrap 4 Framework Master
+## Start : 23 Oktober 2019
 ## Instructor : Jody Aryono
 
 ### Pertemuan 1
