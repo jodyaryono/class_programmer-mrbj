@@ -1,0 +1,26 @@
+.ltb{
+  background-color: #7a8cb9;
+  /* margin: 5px; */
+}
+.lognav{
+  height: 70px;
+  background-color: red;
+}
+.hdrbnr{
+  height: 220px;
+}
+.introtext{
+  height:100px;
+}
+.box{
+  height:350px;
+  border: 5px solid;
+  border-color: white;
+}
+.hdr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ftr{
+  height: 50px;
+}

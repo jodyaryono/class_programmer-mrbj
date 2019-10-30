@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <style media="screen">
+    .box{
+      border: 10px solid;
+      border-color: white;
+      height:250px;
+    }
+  </style>
+  <div class="container-fluid">
+    <h2>Foto Pertemuan 2</h2>
+    <div id="folder_table" class="row">
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript">
+  var action="fetch";
+  $.ajax({
+    url:"action.php",
+    method:"POST",
+    data:{action:action},
+    success:function(data){
+      console.log(data);
+      $('#folder_table').html(data);
+    }
+  });
+
+</script>
+</html>

@@ -1,0 +1,30 @@
+.bgc{
+  background-color: #6c757d8f;
+  /* margin: 5px; */
+}
+.lognav{
+  height: 70px;
+}
+.hdrbnr{
+  height: 120px;
+}
+.introtext{
+  height:220px;
+}
+.box1{
+  height:300px;
+}
+.box2{
+  height:300px;
+}
+.box3{
+  height:300px;
+}
+
+.hdr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ftr{
+  height: 50px;
+}
