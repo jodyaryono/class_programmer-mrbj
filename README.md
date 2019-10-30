@@ -1,3 +1,9 @@
 "# class-programmer-mrbj" 
-"# class_programmer-mrbj" 
-"# class_programmer-mrbj" 
+
+Pertemuan 1
+
+Pertemuan 2
+
+Pertemuan 3
+
+Pertemuan 4
